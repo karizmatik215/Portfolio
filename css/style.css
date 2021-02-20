@@ -56,11 +56,16 @@ section {
 
 img {
   border-radius: 8px;
-  max-width: 40%;
+  max-width: 75%;
 }
 
 .card-text {
   font-size: 14px;
+}
+
+.card-body {
+  background: #E4F1F6;
+  color: #000000;
 }
 
 /* CSS for Contact Page */
