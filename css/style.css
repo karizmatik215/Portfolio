@@ -1,20 +1,31 @@
 /* modified from MDN footer template */
 html {
-  height:100%;
+  height: 100%;
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
+a:link,
+a:visited {
+  color: #de4455;
+}
+
+a:hover {
+  color: #55617b;
+}
+
 .page-body {
-  background-color: #347B98;
+  background-color: #55617b;
 }
 
 body {
-  height:100%;
-  background-color: #347B98;
+  height: 100%;
+  background-color: #55617b;
   color: #333;
   font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
   padding: 0;
@@ -22,7 +33,7 @@ body {
 }
 
 section {
-  height: 100%
+  height: 100%;
 }
 
 .wrapper {
@@ -32,13 +43,13 @@ section {
 }
 
 .page-header {
-  background-color: #092834;
+  background-color: #de4455;
   color: #fff;
   padding: 1px;
 }
 
 .page-footer {
-  background-color: #092834;
+  background-color: #de4455;
   color: #fff;
   padding: 10px;
   font-size: 12px;
@@ -47,6 +58,7 @@ section {
 
 .page-body {
   padding: 20px;
+  align-items: center;
 }
 
 .preview {
@@ -64,14 +76,17 @@ img {
 }
 
 .card-body {
-  background: #E4F1F6;
+  background: #f1f2ed;
   color: #000000;
 }
 
 /* CSS for Contact Page */
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], input[type=email], select, textarea {
+input[type='text'],
+input[type='email'],
+select,
+textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
@@ -79,11 +94,11 @@ input[type=text], input[type=email], select, textarea {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+input[type='submit'] {
   background-color: #212629;
   color: white;
   padding: 12px 20px;
@@ -93,7 +108,7 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a light blue color */
-input[type=submit]:hover {
+input[type='submit']:hover {
   background-color: #00a1ff;
 }
 
